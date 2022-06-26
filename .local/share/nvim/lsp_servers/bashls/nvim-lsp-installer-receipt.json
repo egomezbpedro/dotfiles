@@ -1,0 +1,1 @@
+{"metrics":{"completion_time":1656187962900,"start_time":1656187954202},"schema_version":"1.0a","name":"bashls","secondary_sources":[],"primary_source":{"type":"npm","package":"bash-language-server"}}

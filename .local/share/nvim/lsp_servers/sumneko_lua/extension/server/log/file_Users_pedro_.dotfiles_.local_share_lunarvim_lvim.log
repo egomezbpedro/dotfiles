@@ -1,0 +1,182 @@
+[22:40:17.870][info] [#0:/Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:65]: Lua Lsp startup, root: 	/Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server
+[22:40:17.871][info] [#0:/Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:66]: ROOT:	/Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server
+[22:40:17.871][info] [#0:/Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:67]: LOGPATH:	/Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/log
+[22:40:17.871][info] [#0:/Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:68]: METAPATH:	/Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta
+[22:40:17.872][info] [#0:/Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/main.lua:69]: VERSION:	3.3.1
+[22:40:17.952][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.383 MB
+        # 00 : 1.383 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[22:40:17.993][info] [#0:script/language.lua:137]: VSC language: nil
+[22:40:17.993][info] [#0:script/language.lua:138]: LS  language: en-us
+[22:40:17.993][info] [#0:script/workspace/workspace.lua:39]: Workspace init root: 	file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim
+[22:40:17.993][info] [#0:script/workspace/workspace.lua:43]: Log path: 	/Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/log/file_Users_pedro_.dotfiles_.local_share_lunarvim_lvim.log
+[22:40:17.994][info] [#0:script/workspace/workspace.lua:49]: Workspace create: 	file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim
+[22:40:18.099][info] [#0:script/provider/provider.lua:40]: Load config from client	file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim
+[22:40:18.201][info] [#0:script/provider/provider.lua:40]: Load config from client	file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim
+[22:40:18.202][info] [#0:script/provider/provider.lua:55]: Load config from client	fallback
+[22:40:18.202][info] [#0:script/library.lua:207]: Init builtin library at:	nil
+[22:40:18.241][info] [#0:script/library.lua:207]: Init builtin library at:	file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim
+[22:40:18.256][info] [#0:script/plugin.lua:80]: plugin path:	nil
+[22:40:18.256][info] [#0:script/plugin.lua:80]: plugin path:	nil
+[22:40:18.259][info] [#0:script/provider/provider.lua:55]: Load config from client	fallback
+[22:40:18.259][info] [#0:script/workspace/workspace.lua:285]: Preload start:	file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim
+[22:40:18.261][info] [#0:script/workspace/workspace.lua:291]: Scan files at:	file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim
+[22:40:18.262][info] [#0:script/workspace/workspace.lua:285]: Preload start:	<fallback>
+[22:40:18.263][info] [#0:script/workspace/workspace.lua:307]: Scan library at:	file:///Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8
+[22:40:18.263][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/basic.lua -> file:///Users/pedro/.dotfiles/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/basic.lua
+[22:40:18.264][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/table.lua -> file:///Users/pedro/.dotfiles/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/table.lua
+[22:40:18.264][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/os.lua -> file:///Users/pedro/.dotfiles/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/os.lua
+[22:40:18.265][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/string.lua -> file:///Users/pedro/.dotfiles/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/string.lua
+[22:40:18.266][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/math.lua -> file:///Users/pedro/.dotfiles/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/math.lua
+[22:40:18.266][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/jit.lua -> file:///Users/pedro/.dotfiles/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/jit.lua
+[22:40:18.266][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/coroutine.lua -> file:///Users/pedro/.dotfiles/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/coroutine.lua
+[22:40:18.267][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/debug.lua -> file:///Users/pedro/.dotfiles/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/debug.lua
+[22:40:18.267][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/io.lua -> file:///Users/pedro/.dotfiles/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/io.lua
+[22:40:18.268][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/bit.lua -> file:///Users/pedro/.dotfiles/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/bit.lua
+[22:40:18.268][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/ffi.lua -> file:///Users/pedro/.dotfiles/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/ffi.lua
+[22:40:18.268][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/package.lua -> file:///Users/pedro/.dotfiles/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/package.lua
+[22:40:18.268][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/builtin.lua -> file:///Users/pedro/.dotfiles/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8/builtin.lua
+[22:40:18.269][info] [#0:script/workspace/workspace.lua:307]: Scan library at:	file:///usr/local/Cellar/neovim/0.7.0/share/nvim/runtime/lua
+[22:40:18.278][info] [#0:script/workspace/workspace.lua:307]: Scan library at:	file:///Users/pedro/.dotfiles/.local/share/lunarvim/site/pack/packer/start/plenary.nvim/lua
+[22:40:18.302][info] [#0:script/workspace/workspace.lua:307]: Scan library at:	file:///Users/pedro/.local/share/lunarvim/lvim/lua
+[22:40:18.303][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/impatient.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/impatient.lua
+[22:40:18.303][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/utils.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/utils.lua
+[22:40:18.304][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/impatient/profile.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/impatient/profile.lua
+[22:40:18.304][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/bootstrap.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/bootstrap.lua
+[22:40:18.304][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/lsp/peek.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/lsp/peek.lua
+[22:40:18.305][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/lsp/handlers.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/lsp/handlers.lua
+[22:40:18.305][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/lsp/null-ls/code_actions.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/lsp/null-ls/code_actions.lua
+[22:40:18.305][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/lsp/null-ls/formatters.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/lsp/null-ls/formatters.lua
+[22:40:18.306][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/lsp/null-ls/services.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/lsp/null-ls/services.lua
+[22:40:18.306][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/lsp/null-ls/init.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/lsp/null-ls/init.lua
+[22:40:18.306][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/lsp/null-ls/linters.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/lsp/null-ls/linters.lua
+[22:40:18.307][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/lsp/utils.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/lsp/utils.lua
+[22:40:18.307][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/lsp/manager.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/lsp/manager.lua
+[22:40:18.307][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/lsp/config.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/lsp/config.lua
+[22:40:18.308][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/lsp/providers/vuels.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/lsp/providers/vuels.lua
+[22:40:18.308][info] [#0:script/workspace/workspace.lua:307]: Scan library at:	file:///Users/pedro/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/meta/LuaJIT%20en-us%20utf8
+[22:40:18.308][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/lsp/providers/sumneko_lua.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/lsp/providers/sumneko_lua.lua
+[22:40:18.309][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/lsp/providers/yamlls.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/lsp/providers/yamlls.lua
+[22:40:18.309][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/lsp/providers/jsonls.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/lsp/providers/jsonls.lua
+[22:40:18.309][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/lsp/templates.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/lsp/templates.lua
+[22:40:18.309][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/lsp/init.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/lsp/init.lua
+[22:40:18.310][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/utils/table.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/utils/table.lua
+[22:40:18.310][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/utils/git.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/utils/git.lua
+[22:40:18.311][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/utils/hooks.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/utils/hooks.lua
+[22:40:18.311][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/utils/functions.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/utils/functions.lua
+[22:40:18.311][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/plugins.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/plugins.lua
+[22:40:18.312][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/config/defaults.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/config/defaults.lua
+[22:40:18.312][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/config/settings.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/config/settings.lua
+[22:40:18.312][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/config/init.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/config/init.lua
+[22:40:18.312][info] [#0:script/workspace/workspace.lua:307]: Scan library at:	file:///usr/local/Cellar/neovim/0.7.0/share/nvim/runtime/lua
+[22:40:18.313][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/bufferline.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/bufferline.lua
+[22:40:18.313][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/alpha/startify.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/alpha/startify.lua
+[22:40:18.314][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/alpha/dashboard.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/alpha/dashboard.lua
+[22:40:18.314][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/dap.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/dap.lua
+[22:40:18.315][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/treesitter.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/treesitter.lua
+[22:40:18.315][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/lualine/utils.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/lualine/utils.lua
+[22:40:18.315][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/lualine/components.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/lualine/components.lua
+[22:40:18.316][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/lualine/styles.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/lualine/styles.lua
+[22:40:18.316][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/lualine/conditions.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/lualine/conditions.lua
+[22:40:18.316][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/lualine/colors.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/lualine/colors.lua
+[22:40:18.316][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/lualine/init.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/lualine/init.lua
+[22:40:18.317][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/log.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/log.lua
+[22:40:18.317][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/nvimtree.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/nvimtree.lua
+[22:40:18.317][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/which-key.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/which-key.lua
+[22:40:18.317][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/cmp.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/cmp.lua
+[22:40:18.318][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/comment.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/comment.lua
+[22:40:18.318][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/notify.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/notify.lua
+[22:40:18.318][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/gitsigns.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/gitsigns.lua
+[22:40:18.318][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/commands.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/commands.lua
+[22:40:18.318][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/project.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/project.lua
+[22:40:18.319][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/builtins/init.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/builtins/init.lua
+[22:40:18.319][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/alpha.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/alpha.lua
+[22:40:18.319][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/telescope/custom-finders.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/telescope/custom-finders.lua
+[22:40:18.320][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/terminal.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/terminal.lua
+[22:40:18.320][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/telescope.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/telescope.lua
+[22:40:18.320][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/autopairs.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/autopairs.lua
+[22:40:18.320][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/autocmds.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/autocmds.lua
+[22:40:18.321][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/core/info.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/core/info.lua
+[22:40:18.321][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/interface/text.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/interface/text.lua
+[22:40:18.321][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/interface/popup.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/interface/popup.lua
+[22:40:18.321][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/plugin-loader.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/plugin-loader.lua
+[22:40:18.322][warn] [#0:script/files.lua:60]: Fix real file uri: file:///Users/pedro/.local/share/lunarvim/lvim/lua/lvim/keymappings.lua -> file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/keymappings.lua
+[22:40:18.322][info] [#0:script/workspace/workspace.lua:307]: Scan library at:	file:///Users/pedro/.dotfiles/.local/share/lunarvim/site/pack/packer/opt/lua-dev.nvim/types
+[22:40:18.323][info] [#0:script/workspace/workspace.lua:307]: Scan library at:	file:///Users/pedro/.dotfiles/.local/share/lunarvim/site/pack/packer/start/plenary.nvim/lua
+[22:40:18.336][info] [#0:script/workspace/workspace.lua:307]: Scan library at:	file:///Users/pedro/.local/share/lunarvim/lvim/lua
+[22:40:18.346][info] [#0:script/workspace/workspace.lua:307]: Scan library at:	file:///Users/pedro/.dotfiles/.local/share/lunarvim/site/pack/packer/opt/lua-dev.nvim/types
+[22:40:19.551][info] [#0:script/workspace/workspace.lua:327]: Found 204 files at:	<fallback>
+[22:40:19.552][info] [#0:script/workspace/loading.lua:152]: Load files from disk:	<fallback>
+[22:40:19.552][info] [#0:script/workspace/workspace.lua:327]: Found 279 files at:	file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim
+[22:40:19.552][info] [#0:script/workspace/loading.lua:152]: Load files from disk:	file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim
+[22:40:21.003][info] [#0:script/workspace/loading.lua:164]: Loaded files takes [0.198] sec: <fallback>
+[22:40:21.003][info] [#0:script/workspace/loading.lua:173]: Compile files takes [0.000] sec: <fallback>
+[22:40:21.003][info] [#0:script/workspace/loading.lua:174]: Loaded finish:	<fallback>
+[22:40:21.003][info] [#0:script/workspace/workspace.lua:329]: Preload finish at:	<fallback>
+[22:40:21.003][info] [#0:script/workspace/loading.lua:164]: Loaded files takes [0.198] sec: file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim
+[22:40:21.003][info] [#0:script/workspace/loading.lua:173]: Compile files takes [0.000] sec: file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim
+[22:40:21.003][info] [#0:script/workspace/loading.lua:174]: Loaded finish:	file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim
+[22:40:21.003][info] [#0:script/workspace/workspace.lua:329]: Preload finish at:	file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim
+[22:40:22.228][info] [#0:script/provider/diagnostic.lua:453]: Diagnostics scope [file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim], files count:[279]
+[22:40:22.228][warn] [#0:script/proto/proto.lua:122]: Response of [workspace/diagnostic/refresh] error [-32601]: MethodNotFound
+[22:40:22.228][warn] [#0:script/proto/proto.lua:122]: Response of [workspace/diagnostic/refresh] error [-32601]: MethodNotFound
+[22:40:22.228][warn] [#0:script/proto/proto.lua:171]: Method [textDocument/documentHighlight] takes [1.499]sec. {
+  id = 2,
+  jsonrpc = "2.0",
+  method = "textDocument/documentHighlight",
+  params = {
+    position = {
+      character = 0,
+      line = 0
+    },
+    textDocument = {
+      uri = "file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/config/defaults.lua"
+    }
+  }
+}
+[22:40:22.229][warn] [#0:script/proto/proto.lua:171]: Method [textDocument/documentHighlight] takes [1.410]sec. {
+  id = 3,
+  jsonrpc = "2.0",
+  method = "textDocument/documentHighlight",
+  params = {
+    position = {
+      character = 0,
+      line = 1
+    },
+    textDocument = {
+      uri = "file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/config/defaults.lua"
+    }
+  }
+}
+[22:40:22.328][info] [#0:script/provider/diagnostic.lua:470]: Diagnostics scope [file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim] finished, takes [0.085] sec.
+[22:40:22.329][info] [#0:script/provider/diagnostic.lua:453]: Diagnostics scope [<fallback>], files count:[279]
+[22:40:22.403][info] [#0:script/provider/diagnostic.lua:470]: Diagnostics scope [<fallback>] finished, takes [0.074] sec.
+[22:40:29.984][info] [#0:script/provider/diagnostic.lua:152]: clearDiagnostics	file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim/lua/lvim/keymappings.lua
+[22:40:50.285][warn] [#0:script/provider/provider.lua:572]: Completion takes 0.126 sec.
+[22:40:57.080][info] [#0:script/provider/diagnostic.lua:453]: Diagnostics scope [file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim], files count:[279]
+[22:40:57.235][info] [#0:script/provider/diagnostic.lua:470]: Diagnostics scope [file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim] finished, takes [0.153] sec.
+[22:41:19.156][info] [#0:script/provider/diagnostic.lua:453]: Diagnostics scope [file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim], files count:[279]
+[22:41:19.226][info] [#0:script/provider/diagnostic.lua:470]: Diagnostics scope [file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim] finished, takes [0.071] sec.
+[22:41:37.202][info] [#0:script/provider/diagnostic.lua:453]: Diagnostics scope [file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim], files count:[279]
+[22:41:37.270][info] [#0:script/provider/diagnostic.lua:470]: Diagnostics scope [file:///Users/pedro/.dotfiles/.local/share/lunarvim/lvim] finished, takes [0.069] sec.
+[22:41:54.186][info] [#0:script/provider/provider.lua:167]: Server shutdown.
+[22:41:54.289][info] [#0:script/provider/provider.lua:160]: Server exited.

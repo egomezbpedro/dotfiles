@@ -1,5 +1,0 @@
-pane	0	1	1	:*	1	zsh in .dotfiles	:/Users/pedro/.dotfiles	1	zsh	:
-pane	0	2	0	:-	1	zsh in Downloads	:/Users/pedro/Downloads	1	zsh	:
-window	0	1	:zsh	1	:*	cc3d,151x48,0,0,0	:
-window	0	2	:zsh	0	:-	cc45,151x48,0,0,8	off
-state	0	

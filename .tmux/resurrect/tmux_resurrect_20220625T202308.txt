@@ -1,3 +1,0 @@
-pane	work	1	1	:*	1	zsh in ~	:/Users/pedro	1	zsh	:
-window	work	1	:zsh	1	:*	cc3d,151x48,0,0,0	:
-state	work	
