@@ -12,7 +12,8 @@ brew install neovim zsh oh-my-posh stow&
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended%
 
 # Clone the dotfiles folder
-git clone https://github.com/egomezbpedro/dotfiles.git ~/.dotfiles
+
+mv ~/dotfiles ~/.dotfiles
 
 rm -rf ~/.zsh* 
 rm ~/.dotfiles/installer.sh
