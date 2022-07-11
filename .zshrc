@@ -82,7 +82,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
-
+export PATH="~/.emacs.d/bin:$PATH"
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
@@ -103,5 +103,4 @@ alias zshconfig="lvim ~/.zshrc"
 alias zshreload="source .zshrc"
 #alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="~/.local/bin/lvim"
-
-
+alias emacs="emacsclient -c -a 'emacs'"
