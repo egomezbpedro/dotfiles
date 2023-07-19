@@ -13,8 +13,7 @@ then
 
 gum format -- "# Welcome, let's configure this machine"
 
-gum spin --spinner line --title "Installing your tools" -- sleep 300 | sudo apt -qq update &&
-    sudo apt install -y -qq pipx fd-find ripgrep fzf stow tmux zsh &&
+gum spin --spinner line --title "Installing your tools and configuring your enviroment" -- sleep 1200 |
     type -p curl >/dev/null || (sudo apt -qq update && sudo apt -y -qq install curl) &&
     curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg &&
     sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg && 
@@ -23,15 +22,14 @@ gum spin --spinner line --title "Installing your tools" -- sleep 300 | sudo apt 
     sudo apt -y -qq install gh &&
     sudo apt-get -y -qq install ninja-build gettext cmake unzip && 
     git clone https://github.com/neovim/neovim ~/neovim && 
-    cd ~/neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install && cd &&
+    cd ~/neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install
+    sudo apt install -y -qq pipx fd-find ripgrep fzf stow tmux zsh &&
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended &&
-    sudo usermod -s "/bin/zsh" ${USER}
-    
-gum spin --spinner line --title "Configuring your enviroment" -- sleep 60 \
-   git clone https://github.com/egomezbpedro/nvim-conf.git ~/.config/nvim &&
-   git clone https://github.com/egomezbpedro/dotfiles.git ~/.dotfiles &&
-   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm &&
-   cd ~/.dotfiles && stow . &&
-   cd && rm install.sh &&
-   su - ${USER}
+    sudo usermod -s "/bin/zsh" ${USER} &&    
+    git clone https://github.com/egomezbpedro/nvim-conf.git ~/.config/nvim &&
+    git clone https://github.com/egomezbpedro/dotfiles.git ~/.dotfiles &&
+    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm &&
+    rm ~/.zshrc && cd ~/.dotfiles && stow . &&
+    rm ~/install.sh ~/.gitignore &&
+    su - ${USER}
 fi
