@@ -12,7 +12,8 @@ TASK=$(gum choose "tools" "dotfiles")
 
 if [ "$TASK" = "tools" ]; then
     gum spin --spinner line --title "Installing your tools" -- sleep 300 | sudo apt -qq update \
-        sudo apt install -y -qq pipx fd-find ripgrep fzf stow\
+        sudo apt install -y -qq pipx fd-find ripgrep fzf stow tmux\
+        git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm \
         type -p curl >/dev/null || (sudo apt -qq update && sudo apt -qq install curl -y)
         curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
         && sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
@@ -31,7 +32,9 @@ if [ "$TASK" = "dotfiles" ]; then
     gum spin --spinner line --title "Configuring your enviroment" -- sleep 60 \
        git clone https://github.com/egomezbpedro/nvim-conf.git ~/.config/nvim \
        git clone https://github.com/egomezbpedro/dotfiles.git ~/.dotfiles \
+       rm ~/.zshrc ~/.tmux.conf \
        cd ~/.dotfiles/ \
-       stow .
+       stow . \
+       rm -rf ~/.git*
 
 fi
