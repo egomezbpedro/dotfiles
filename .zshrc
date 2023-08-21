@@ -98,6 +98,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
+alias porter="~/.code/porter/bin/porter"
 
 function ks(){
     pls "$1" -d -d mtime -d size
@@ -115,5 +116,10 @@ export FZF_BASE=~/.config/fzf
 
 export PATH=~/go/bin:$PATH
 export PATH=~/.local/bin:$PATH
+export PATH=~/.emacs.d/bin:$PATH
+export PATH=~/.porter:$PATH
+
+source ~/.config/mage-completion.sh
 
 tmux new -AsMain
+source ~/.zshenv
