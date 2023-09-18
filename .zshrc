@@ -98,6 +98,9 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
+alias emacs-daemon="systemctl --user start --now emacs"
+alias emacs-kill="emacsclient -e '(kill-emacs)'"
+alias vi="emacsclient -cn"
 alias porter="~/.code/porter/bin/porter"
 
 function ks(){
@@ -116,9 +119,9 @@ export FZF_BASE=~/.config/fzf
 
 export PATH="~/go/bin:$PATH"
 export PATH="~/.local/bin:$PATH"
-export PATH="~/.config/emacs/bin:$PATH"
-export PAT="~/.emacs.d/bin:$PATH"
+export PATH="~/.emacs.d/bin:$PATH"
 export GPG_TTY=$(tty)
 source ~/.config/mage-completion.sh
 
 tmux new -AsMain
+emacs-daemon
