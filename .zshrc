@@ -96,32 +96,21 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
+#
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vim="nvim"
-alias emacs-daemon="systemctl --user start --now emacs"
+alias emacs-daemon="emacs --daemon"
 alias emacs-kill="emacsclient -e '(kill-emacs)'"
-alias vi="emacsclient -cn"
+alias vi="emacsclient -t"
 alias porter="~/.code/porter/bin/porter"
-
-function ks(){
-    pls "$1" -d -d mtime -d size
-}
-function ka(){
-    pls "$1" -d -d mtime -d size -a
-}
-function kk(){
-    pls "$1" -d all -a
-}
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export FZF_BASE=~/.config/fzf
 
-export PATH="~/go/bin:$PATH"
-export PATH="~/.local/bin:$PATH"
-export PATH="~/.emacs.d/bin:$PATH"
+export PATH="$HOME/go/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.emacs.d/bin:$PATH"
 export GPG_TTY=$(tty)
 source ~/.config/mage-completion.sh
 
 tmux new -AsMain
-emacs-daemon
