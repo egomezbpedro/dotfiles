@@ -2,16 +2,20 @@
 ;;$DOOMDIR/config.el
 (setq user-full-name "Pedro Gomez"
       user-mail-address "pedroenrique.gomezb@gmail.com")
+(setq mac-option-key-is-meta nil
+      mac-command-key-is-meta t
+      mac-command-modifier 'meta
+      mac-option-modifier 'none)
 
 (setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 16 :weight 'regular)
       doom-variable-pitch-font (font-spec :family "JetBrainsMonoNL Nerd Font" :size 16))
 
-(setq doom-theme 'doom-one)
+(setq doom-theme 'doom-gruvbox)
 (require 'pretty-mode)
 (global-pretty-mode t)
 (setq +org-pretty-mode 1)
 
-;;(doom/set-frame-opacity 95)
+(doom/set-frame-opacity 95)
 (add-to-list 'default-frame-alist '(alpha-background . 40))
 
 (setq display-line-numbers-type 'relative)

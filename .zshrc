@@ -70,7 +70,7 @@ ZSH_THEME_RANDOM_CANDIDATES=("robbyrussell" "agnoster" "cloud")
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git kubectl docker docker-compose encode64 fzf minikube skaffold terraform)
+plugins=(git encode64 fzf terraform)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -101,7 +101,9 @@ alias zshconfig="vim ~/.zshrc"
 alias emacs-daemon="emacs --daemon"
 alias emacs-kill="emacsclient -e '(kill-emacs)'"
 alias vi="emacsclient -t"
+alias vim="nvim"
 alias porter="~/.code/porter/bin/porter"
+alias org="tmux a -t Org-Mode"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -111,6 +113,14 @@ export PATH="$HOME/go/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.emacs.d/bin:$PATH"
 export GPG_TTY=$(tty)
-source ~/.config/mage-completion.sh
+#source ~/.config/mage-completion.sh
 
-tmux new -AsMain
+#tmux has-session -t Org-Mode || tmux new-session -d -s Org-Mode
+
+
+tmux_running=$(pgrep tmux)
+if [[ -z $TMUX ]] && [[ -z $tmux_running ]]; then
+    ~/.local/bin/tmux-sessionizer.sh
+elif [[ -z $TMUX ]] && [[ $tmux_running ]]; then
+    tmux attach
+fi
