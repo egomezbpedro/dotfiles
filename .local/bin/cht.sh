@@ -1,13 +1,13 @@
-#! /usr/bin/env bash
-#
-lang=`echo "golang javascript terrafrom typescript lua python cpp" | tr ' ' '\n'`
-coreutils=`echo "xargs sed awk find mv" | tr ' ' '\n'`
+selected=`cat ~/.tmux/.tmux-cht-languages ~/.tmux/.tmux-cht-command | fzf`
+if [[ -z $selected ]]; then
+    exit 0
+fi
 
-selected=`printf "$lang\n$coreutils" | fzf`
-read -p "query: " query
+read -p "Enter Query: " query
 
-if grep -q $selected <<< $lang; then
-    tmux neww bash -c "curl cht.sh/$selected/`echo $query | tr ' ' '+'` & while [ : ]; do sleep 1; done"
+if grep -qs "$selected" ~/.tmux/.tmux-cht-languages; then
+    query=`echo $query | tr ' ' '+'`
+    tmux neww bash -c "echo \"curl cht.sh/$selected/$query/\" & curl cht.sh/$selected/$query & while [ : ]; do sleep 1; done"
 else
-    tmux neww bash -c "curl cht.sh/$selected~$query & while [ : ]; do sleep 1; done"
+    tmux neww bash -c "curl -s cht.sh/$selected~$query | less"
 fi
