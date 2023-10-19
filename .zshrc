@@ -14,7 +14,7 @@ ZSH_THEME="random"
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
-ZSH_THEME_RANDOM_CANDIDATES=("robbyrussell" "agnoster" "cloud")
+ZSH_THEME_RANDOM_CANDIDATES=("robbyrussell" "agnoster" "cloud" "awesomepanda" "clean" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -102,8 +102,6 @@ alias emacs-daemon="emacs --daemon"
 alias emacs-kill="emacsclient -e '(kill-emacs)'"
 alias vi="emacsclient -t"
 alias vim="nvim"
-alias porter="~/.code/porter/bin/porter"
-alias org="tmux a -t Org-Mode"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -113,10 +111,6 @@ export PATH="$HOME/go/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.emacs.d/bin:$PATH"
 export GPG_TTY=$(tty)
-#source ~/.config/mage-completion.sh
-
-#tmux has-session -t Org-Mode || tmux new-session -d -s Org-Mode
-
 
 tmux_running=$(pgrep tmux)
 if [[ -z $TMUX ]] && [[ -z $tmux_running ]]; then
@@ -124,3 +118,5 @@ if [[ -z $TMUX ]] && [[ -z $tmux_running ]]; then
 elif [[ -z $TMUX ]] && [[ $tmux_running ]]; then
     tmux attach
 fi
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
