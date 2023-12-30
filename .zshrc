@@ -70,7 +70,7 @@ ZSH_THEME_RANDOM_CANDIDATES=("robbyrussell" "agnoster" "cloud" "awesomepanda" "c
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git encode64 fzf terraform)
+plugins=(kubectl zsh-autosuggestions minikube git encode64 fzf terraform)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -95,6 +95,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
+source $HOME/.alias
 alias zshconfig="vim ~/.zshrc"
 #
 # alias ohmyzsh="mate ~/.oh-my-zsh"
