@@ -121,3 +121,7 @@ elif [[ -z $TMUX ]] && [[ $tmux_running ]]; then
 fi
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# add Pulumi to the PATH
+export PATH=$PATH:/home/gpedro/.pulumi/bin
+export PATH="/home/linuxbrew/.linuxbrew/opt/node@18/bin:$PATH"

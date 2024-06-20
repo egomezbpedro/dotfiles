@@ -1,0 +1,6 @@
+.config/gh*
+.local/share*
+.local/state*
+.tmux/plugins*
+share
+state
