@@ -1,0 +1,7 @@
+time 1734713062
+new [description:"some" entry:"1734713062" modified:"1734713062" status:"pending" uuid:"ec871001-ffd7-4728-a56d-8da2bb9d2089"]
+---
+time 1734713072
+old [description:"some" entry:"1734713062" modified:"1734713062" status:"pending" uuid:"ec871001-ffd7-4728-a56d-8da2bb9d2089"]
+new [description:"some" end:"1734713072" entry:"1734713062" modified:"1734713072" status:"completed" uuid:"ec871001-ffd7-4728-a56d-8da2bb9d2089"]
+---

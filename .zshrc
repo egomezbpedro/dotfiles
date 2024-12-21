@@ -14,7 +14,7 @@ ZSH_THEME="random"
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
-ZSH_THEME_RANDOM_CANDIDATES=("robbyrussell" "agnoster" "cloud" "awesomepanda" "clean" )
+ZSH_THEME_RANDOM_CANDIDATES=("agnoster")
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -70,7 +70,7 @@ ZSH_THEME_RANDOM_CANDIDATES=("robbyrussell" "agnoster" "cloud" "awesomepanda" "c
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(kubectl zsh-autosuggestions minikube git encode64 fzf terraform)
+plugins=(direnv kubectl zsh-autosuggestions minikube git encode64 fzf terraform)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -103,9 +103,9 @@ alias emacs-daemon="emacs --daemon"
 alias emacs-kill="emacsclient -e '(kill-emacs)'"
 alias vi="emacsclient -t"
 alias vim="nvim"
+alias gitbutler="nohup git-butler > /dev/null 2>&1 &"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 export FZF_BASE=~/.config/fzf
 
 export PATH="$HOME/go/bin:$PATH"
@@ -125,7 +125,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 # add Pulumi to the PATH
 export PATH=$PATH:/home/gpedro/.pulumi/bin
 export PATH="/home/linuxbrew/.linuxbrew/opt/node@18/bin:$PATH"
-
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+dbus-daemon --session --address=$DBUS_SESSION_BUS_ADDRESS --nofork --nopidfile --syslog-only &

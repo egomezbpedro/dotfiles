@@ -3,7 +3,7 @@
 if [[ $# -eq 1 ]]; then
     selected=$1
 else
-    selected=$(find ~/.dotfiles ~/.config/nvim ~/ ~/projects ~/personal ~/work -mindepth 0 -maxdepth 3 -type d | fzf)
+    selected=$(find ~/ ~/.dotfiles ~/.config/nvim ~/Images -mindepth 0 -maxdepth 2 -type d | fzf)
 fi
 
 if [[ -z $selected ]]; then
@@ -23,8 +23,7 @@ else
     tmux new-session -s 'backup'
 fi
 
-
-if ! tmux has-session -t=$selected_name 2> /dev/null; then
+if ! tmux has-session -t=$selected_name 2>/dev/null; then
     tmux new-session -ds $selected_name -c $selected
 fi
 

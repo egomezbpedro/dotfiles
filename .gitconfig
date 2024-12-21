@@ -1,0 +1,42 @@
+[user]
+    email = pedro_enrique.gomez_betancourt@businesspartner.roche.com
+    name = Gomez Betancourt, Pedro Enrique {External~DELOITTE TECHNOLOGY +}
+	signingkey = /home/gomezbep/.ssh/code_roche
+
+[includeIf "gitdir:~/images/"]
+    path = ~/images/.gitconfig
+
+[alias]
+        blameblame = blame -w -C -C -C
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	last5 = log -5 HEAD
+[rerere]
+        enabled = true
+[column]
+        ui = auto
+[branch]
+        sort = committerdate
+[init]
+        defaultBranch = main
+[filter "lfs"]
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
+        clean = git-lfs clean -- %f
+[maintenance]
+        repo = /home/gomezbep/AMIS/pipelines/aws
+	repo = /home/gomezbep/Images/ami/feature
+	repo = /home/gomezbep/Images/ami
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[pull]
+	rebase = true
